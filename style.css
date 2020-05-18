@@ -4,6 +4,7 @@ body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: #505962;
+  background-color: #14083c;
 }
 
 .offset:before {
@@ -154,6 +155,8 @@ h3.heading {
 
 /*--- Contact ---*/
 footer {
+  background-image: url("img/footer.png");
+  background-position: center;
   background-color: #403d69;
   color: white;
   padding: 2rem 0 3rem;
