@@ -14,6 +14,8 @@ body {
   font-family: 'Source Sans Pro';
 }
 
+
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
@@ -110,12 +112,26 @@ h6 {
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
+    background-color: #1F1137;
   }
   .masthead h1 {
     font-size: 5.5rem;
   }
 }
 
+  #mobile-gap{
+    height:180px;
+  }
+
+  @media only screen and (max-width: 600px){
+    #mobile-gap{
+      height:250px;
+    }
+    .masthead {
+      background: url('../img/bg-enitiopost-mobile.jpg') no-repeat;
+    }
+
+  }
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
